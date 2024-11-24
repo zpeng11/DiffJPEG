@@ -42,4 +42,4 @@ def quality_to_factor(quality):
         quality = 5000. / quality
     else:
         quality = 200. - quality*2
-    return quality / 100.
+    return quality / 100 + 0.00001.
